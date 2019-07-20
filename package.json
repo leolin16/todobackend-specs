@@ -4,7 +4,7 @@
   "description": "Todobackend Acceptance Tests",
   "main": "app.js",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha --colors --reporter mocha-jenkins-reporter"
   },
   "author": "Leo Lin",
   "license": "ISC",
